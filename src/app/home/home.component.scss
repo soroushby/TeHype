@@ -1,0 +1,128 @@
+.main {
+  // background-image: url(../../assets/andre-benz-Mn9Fa_wQH-M-unsplash.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  min-height: 100vh;
+  position: relative;
+
+  &-bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+
+    &__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+// .gradient {
+//   background-image: radial-gradient(
+//     circle at 36% 48%,
+//     rgba(23, 25, 27, 0.877) 87%,
+//     rgba(0, 0, 0, 0.753)
+//   );
+// }
+
+// &-btn:link,
+// &-btn:visited {
+//   text-transform: uppercase;
+//   text-decoration: none;
+//   padding: 1.5rem 4rem;
+//   display: inline-block;
+//   border-radius: 10rem;
+//   transition: all 0.9s;
+//   letter-spacing: 0.8rem;
+// }
+
+// &-btn:hover {
+//   transform: translateY(-0.3rem);
+//   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+// }
+
+// &-btn:active {
+//   transform: translateY(-0.1rem);
+//   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+// }
+
+// &-btn-white {
+//   background-color: rgba(7, 6, 44, 0.8);
+//   color: white;
+// }
+
+// &-btn {
+//   font-size: 1.5rem;
+//   font-weight: 200;
+// }
+//}
+
+.clr {
+  font-size: 15rem;
+  font-weight: 200;
+  color: rgb(224, 36, 36);
+  background-color: white;
+}
+
+.main2 {
+  background-image: linear-gradient(#f7f7f7, #f7f7f7),
+    url(../../assets/andre-benz-Mn9Fa_wQH-M-unsplash.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 100vh;
+
+  &-card {
+    width: 50%;
+    height: 60%;
+
+    background-color: rgb(73, 73, 73);
+
+    transition: all 0.5s;
+    // background-image: linear-gradient(
+    //   to bottom right,
+    //   #f7f7f7,
+    //   rgba(38, 38, 252, 0.562)
+    // );
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    &:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+  }
+}
+
+.main3 {
+  background-image: linear-gradient(
+      rgba(80, 80, 80, 0.548),
+      rgba(197, 111, 111, 0.849)
+    ),
+    url(../../assets/andre-benz-Mn9Fa_wQH-M-unsplash.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+
+  &-grid-list {
+    font-size: 2rem;
+    height: 100%;
+  }
+
+  &-card {
+    width: 60%;
+    height: 40%;
+
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
